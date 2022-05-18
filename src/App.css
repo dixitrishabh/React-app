@@ -21,3 +21,28 @@ img{
   margin-top: 10px;
 }
 
+
+.header{
+  position: sticky;
+  left: 0;
+  top: 0px;
+  height: 10%;
+  width: 100%;
+  background-color: gold;
+  color: black;
+  text-align: center;
+ 
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: gold;
+  color: black;
+  text-align: center;
+
+}
+
