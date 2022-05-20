@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,14 +19,15 @@ img{
   height: 150px;
   width: 150px;
   margin-top: 10px;
-}
+} */
 
 
 .header{
   position: sticky;
   left: 0;
-  top: 0px;
-  height: 10%;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 50%;
   width: 100%;
   background-color: gold;
   color: black;
@@ -46,3 +47,30 @@ img{
 
 }
 
+.page{
+  float: left;
+  position:absolute
+}
+
+.table{
+  border: 1px solid black;
+  height: 50%;
+}
+
+.box{
+  border-style: solid;
+  background-color: aqua;
+  width: 550px;
+}
+
+.mainbox{
+  padding-top: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.button{
+  background-color: rgb(214, 194, 13);
+  width: 40px;
+  margin-bottom: auto;
+}
